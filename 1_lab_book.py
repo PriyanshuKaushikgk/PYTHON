@@ -176,33 +176,57 @@
 
 #Q. 3
 
-for i in range(3):
-    for j in range(3-i-1):
-        print(" ", end="")
+# for i in range(3):
+#     for j in range(3-i-1):
+#         print(" ", end="")
     
-    for j in range(i+1):
-        print(10+i,end=" ")
-    print()
+#     for j in range(i+1):
+#         print(10+i,end=" ")
+#     print()
 
 
 #Q.4
 
-for i in range(3):
-    for j in range(3-i-1):
-        print(" ",end="")
+# for i in range(3):
+#     for j in range(3-i-1):
+#         print(" ",end="")
 
-    for j in range(2 * i+1):
-        print(chr(ord('A')+j),end="")
-    print()
+#     for j in range(2 * i+1):
+#         print(chr(ord('A')+j),end="")
+#     print()
 
 
 
 
 #Q.5
 
-for i in range(5):
-    for j in range(i):
-        print(" ",end="")
-    for j in range(5-i):
-        print("* ",end="")
-    print()
+# for i in range(5):
+#     for j in range(i):
+#         print(" ",end="")
+#     for j in range(5-i):
+#         print("* ",end="")
+#     print()
+
+
+# what is namespace
+#A namespace is a collection of currently defined symbolic names along with information about the object that each name references. You can think of a namespace as a dictionary in which the keys are the object names and the values are the objects themselves.
+
+
+# Difference between == and is operator
+#The == operator is used to compare the equality of objects. The is operator is used to check if different variables are pointing to the same object in memory.
+
+# diffenrence between list and tuple.
+
+# LIST
+#      Lists are mutable
+#      The implication of iterations is Time-consuming
+#      list is better for performing operations, such as insertion and deletion.
+#      Lists consume more memory
+#      Lists have several built-in methods
+# TUPLE:---
+
+# 1	Tuples are immutable
+# 2	The implication of iterations is comparatively Faster
+# 3 	A Tuple data type is appropriate for accessing the elements
+# 4	Tuple consumes less memory as compared to the list
+# 5	Tuple does not have many built-in methods.

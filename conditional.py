@@ -73,13 +73,12 @@
 
 #sum of three digits ---------->>>>>>>>>>
 
-number = 123
-first_digit = number//100
-seecond_digit = (number%100)//10
-third_digit = number%10
-sumofdigits = first_digit+seecond_digit+third_digit
-square  = sumofdigits**2
-print(square)
+# number = 123
+# first_digit = number//100
+# seecond_digit = (number%100)//10
+# third_digit = number%10
+# sumofdigits = first_digit+seecond_digit+third_digit
+# print(square)
 
 
 

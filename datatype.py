@@ -13,4 +13,3 @@ print(id(salary))
 salary=20
 print("New",id(salary))
 
-print(id(age))

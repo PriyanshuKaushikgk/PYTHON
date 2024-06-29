@@ -18,13 +18,16 @@
 #         newlist.append(i)
 #         total+=1
 # print(newlist)
-mydictionary={}
-mylist = "hey hello user abc hey abc".split()
-
-   if word not in mydictionary:
-        mydictionary[word]=1
-   else:
-    mydictionary[word]=1
 
 
-print(mydictionary)
+
+# mydictionary={}
+# mylist = "hey hello user abc hey abc".split()
+
+#    if word not in mydictionary:
+#         mydictionary[word]=1
+#    else:
+#     mydictionary[word]=1
+
+
+# print(mydictionary)
