@@ -238,3 +238,14 @@
 mylist = [10,20,30,40,50]
 
 print(list(map(lambda x:x**2, mylist)))
+
+
+#normal funciton
+#args and kwargs
+#lambda funtion
+#normal and lambda fjucntion
+#first calss vs high order
+#map and filter
+
+
+
