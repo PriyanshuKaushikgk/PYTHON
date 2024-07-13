@@ -53,20 +53,28 @@
 # f()
 # print(s)
 
-def add():
-      print("Inside function:",x+10)
+# def add():
+#       print("Inside function:",x+10)
 
-x = 10
-add()
-print(x)
-
-
-# Python3 program introducing f-string
-val = 'Geeks'
-print(f"{val}for{val} is a portal for {val}.")
+# x = 10
+# add()
+# print(x)
 
 
-name = 'Om'
-age = 22
-print(f"Hello, My name is {name} and I'm {age} years old.")
+#_--------------------------
 
+
+class employee:
+  def __init__(self,x,y,z):
+
+    self.id=x
+    self.name = y
+    self.email = z
+    print("Inside class = ",x,y,z)
+
+h1 = employee(1,"yash","regex@gmail.com")
+print("name=",h1.name)
+print("eid=",h1.id)
+print("Email=",h1.email)
+print()
+print(h1.id,h1.name,h1.email)
